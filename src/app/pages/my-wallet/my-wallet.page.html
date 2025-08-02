@@ -12,7 +12,13 @@
     <div class="features-box">
       <div class="photo">
         <ion-avatar slot="start">
+          <!-- <img [src]="currentUser.profilePicture" alt="User Photo" /> -->
+          @if (currentUser.profilePicture) {
           <img [src]="currentUser.profilePicture" alt="User Photo" />
+          }
+          @else {
+          <img src="https://i.pinimg.com/280x280_RS/79/dd/11/79dd11a9452a92a1accceec38a45e16a.jpg" alt="User Photo" />
+          }
         </ion-avatar>
         <div class="detail">
           <!-- <ion-card-title color="light">{{ userData?.userName }}</ion-card-title> -->

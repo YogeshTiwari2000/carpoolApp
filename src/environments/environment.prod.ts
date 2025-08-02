@@ -1,6 +1,6 @@
 export const environment = {
   production: true,
-  firebaseConfig: {
+  firebase: {
     projectId: "carpool-4bac6",
     appId: "1:131793287583:web:b600ce74c07df536e765aa",
     storageBucket: "carpool-4bac6.appspot.com",
