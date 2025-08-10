@@ -1,7 +1,7 @@
 Demo : 
 https://yogeshtiwari2000.github.io/carpoolApp/welcome
 
-Can use Dummy Data for login: 
+In Case want to use Dummy Data for login: 
 
 email : pass@gmail.com
 
